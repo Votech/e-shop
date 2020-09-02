@@ -52,3 +52,11 @@ $main-color: black;
     }
   }
 }
+
+@media screen and (max-width: 800px) {
+  .group {
+    .form-input {
+      width: 90vw;
+    }
+  }
+}
