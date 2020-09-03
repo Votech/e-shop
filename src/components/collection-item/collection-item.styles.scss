@@ -5,6 +5,7 @@
   height: 350px;
   align-items: center;
   position: relative;
+  padding: 0 5px;
 
   .image {
     width: 100%;
@@ -54,6 +55,7 @@
 @media screen and (max-width: 800px) {
   .collection-item {
     width: 40vw;
+    padding: 0;
 
     .custom-button {
       display: block;
